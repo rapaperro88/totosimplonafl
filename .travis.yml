@@ -14,5 +14,5 @@ script:
 deploy:
     provider: heroku
     api_key: $HEROKU_TOKEN
-    app : the-app-to-tangram
+    app : totosimplonafl
     skip_cleanup: True
