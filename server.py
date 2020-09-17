@@ -13,7 +13,7 @@ parser.add_argument('number', type=float, required=True)
 
 class HelloWorld(Resource):
     def get(self):
-        return {'hello':'world'}
+        return {'hello':'world 2'}
 
 class Square(Resource):
     def post(self):
